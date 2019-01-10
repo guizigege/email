@@ -1,0 +1,25 @@
+src-->
+   assets----->配置目录
+	icon-----> 存放图标样式
+   components--->组件目录
+	Login.vue --------- 登入
+	Home.vue ---------- 首页
+	SubMenu.vue ------- 左边菜单栏
+	NavHeader.vue ------- 公共头部
+	Email.vue ------------ 邮件小号列表及更新编辑
+	Vps.vue ----------- Vps系统管理
+	Mould.vue ---------- 模板列表管理
+	MouldEdit.vue ---------- 编辑模板
+	MouldAdd.vue ----------- 添加模板
+	TaskAdd.vue ---------- 添加新的任务
+	TaskEdit.vue ---------	编辑任务
+	Task.vue ----------- 任务列表管理
+    router ------->路由目录
+	index.js -------- 配置路由
+    uitls -------->工具包目录
+	eventBus.js ------- 兄弟组件通信的过渡桥梁	
+	getData.js -------- 挂载在vue对象的全局方法，用于获取后台接口数据
+	http.js ---------- 封装好的axios，用于发送请求
+	global.js --------- 全局对象
+    main.js ------------入口主函数 用于导入各个js
+    vue.app ------------主vue组件，定义全局样式，全局方法

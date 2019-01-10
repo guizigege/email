@@ -1,0 +1,27 @@
+
+vue开发环境安装：
+1.安装node.js    https://nodejs.org/en/download/
+
+2.安装完后就可以在使用cmd 使用npm命令，在cmd输入npm install -g vue-cli
+
+3.第二步成功后就可以在cmd使用vue 命令，下面开始创建项目
+
+4.在cmd 输入vue init webpack my_project(这里的my_project是项目文件夹名称) 
+
+5.安装依赖，在cmd输入 cd my_project(上一步创建的文件夹名称) 进入到具体项目文件夹
+
+6.安装，在cmd输入 npm install 回车后开始安装
+
+7.安装完成后，最后在cmd 输入 npm run dev 此时cmd会出现一个url
+
+8.用浏览器打开该url，页面出现vue logo说明安装成功！
+
+
+
+
+用git pull 下拉项目：（必须安装了node.js才能使用npm命令）
+1.在该项目目录路径，使用命令 npm install 安装相关依赖
+
+2.在该项目目录路径，使用命令 npm run dev 运行该项目
+
+3.在该项目目录路径，使用命令 npm run build 打包项目 生成static目录和index.html文件 即可上传到线上
